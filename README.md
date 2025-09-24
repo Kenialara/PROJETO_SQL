@@ -47,14 +47,12 @@ Entre as principais análises:
 - 🏙️ **Distribuição geográfica**: cidades com maior concentração de clientes.  
 - 📉 **Categorias com menor volume de vendas**.  
 
-As queries estão padronizadas com **comentários descritivos e seções bem organizadas**, facilitando leitura e reuso:contentReference[oaicite:2]{index=2}.
+As queries estão padronizadas com **comentários descritivos e seções bem organizadas**, facilitando leitura.
 
 ---
 
 ## 🔗 Fluxo de Execução
 
-1. **Criar o schema** → `Criação_Database_Schema_StyloImperial.sql`  
-2. **Popular com dados sintéticos** → `Carga_dados_StyloImperial.sql`  
-3. **Executar as análises de negócio** → `Querys_Perguntas_Negocio.sql`  
-    Dim_Fretes ||--o{ Fato_Vendas : "frete"
-    Dim_Produtos ||--o{ Fato_Vendas : "produto"
+1. **Criar o schema** → `Criação_Database_Schema_StyloImperial.sql` 
+2. **Popular com dados sintéticos** → `Carga_dados_StyloImperial.sql`
+3. **Executar as análises de negócio** → `Querys_Perguntas_Negocio.sql`
